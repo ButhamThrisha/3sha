@@ -61,7 +61,7 @@ delta(x)=-eta*derivate
   ----------------------CODE-------------------------------------
   
   
-  import math
+import math
 x_o=2
 y_o=4
 eta=0.01
