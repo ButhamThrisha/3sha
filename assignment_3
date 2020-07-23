@@ -1,0 +1,451 @@
+Find the global minimum point and value for the function f(x,y)=3x^2+5e^-y+10.
+
+Objective Function :-
+          F(x,y)=3x^2+5e^-y+10
+ 
+ 
+ ----------------Manual Calculation-----------------
+considering x=2,y=3,eta=3,iter=1,epoch=100
+
+ITERATION-1:                                                    
+                                   
+At x=2   d(x,y)/dx=6x                                                  
+                  =6(2)                                                 
+                  =12
+                  
+At y=4   d(x,y)/dy=-5e^(-4)
+                  =-0.0915
+                 
+delta(x)=-eta*derivate
+        =-0.01*0.12=-0.12
+        
+  x=x+delta(x)
+  =2-0.12
+  =1.88
+  
+  delta(y)=-eta*derivate
+           =-0.01*-0.0915
+           =0.000915
+           
+  y=y+delta(y)
+  =4+0.000915
+  =4.000915
+                  
+ ITERATION-2:                                            
+                                   
+At x=1.88   d(x,y)/dx=6x                                                   
+                  =6(1.88)                                                 
+                  =11.28
+                  
+At y=4.000915   d(x,y)/dy=-5e^(-4.000915)
+                  =-0.0914
+                 
+delta(x)=-eta*derivate
+        =-0.01*11.28=-0.1128
+        
+  x=x+delta(x)
+  =1.88-0.1128
+  =1.76
+  
+  delta(y)=-eta*derivate
+           =-0.01*-0.0914
+           =0.000915
+           
+  y=y+delta(y)
+  =4.0025+0.000915
+  =4.0101
+  
+  ITERATON 3(x=1.76 , y=4.0101) and so.... on untill it reaches the Global minimum point.
+  
+  
+  ----------------------CODE-------------------------------------
+  
+  
+  import math
+x_o=2
+y_o=4
+eta=0.01
+max_iterations=100
+iterations=1
+eps=100
+del_x=1
+del_y=1
+def deriv(x,y):
+    x_deriv=6*(x)
+    y_deriv=-5*math.exp(-y)
+    return x_deriv,y_deriv
+while max(abs(del_x),abs(del_y))<eps and iterations<max_iterations:
+    prev_x=x_o
+    prev_y=y_o
+    del_x,del_y=deriv(prev_x,prev_y)
+    del_x=-eta*del_x
+    del_y=-eta*del_y
+    x_o=x_o+del_x
+    y_o=y_o+del_y
+    iterations=iterations+1
+    print("iterations",iterations,"\n x value is",x_o,"\n y value is",y_o)
+print("the local minimum occurs at",x_o,y_o)
+
+
+
+------OUTPUT-------
+
+Iteration 1 
+ X value is 1.56
+Iteration 2 
+ X value is 1.31454336
+Iteration 3 
+ X value is 1.1448082464958187
+Iteration 4 
+ X value is 1.0161049688907735
+Iteration 5 
+ X value is 0.9131747830018315
+Iteration 6 
+ X value is 0.8279248695515025
+Iteration 7 
+ X value is 0.7555490157255917
+Iteration 8 
+ X value is 0.6929637381442643
+Iteration 9 
+ X value is 0.638075501232656
+Iteration 10 
+ X value is 0.5893995199634046
+Iteration 11 
+ X value is 0.5458454464975495
+Iteration 12 
+ X value is 0.5065893936874144
+Iteration 13 
+ X value is 0.4709937316045093
+Iteration 14 
+ X value is 0.4385547901364728
+Iteration 15 
+ X value is 0.4088676076848285
+Iteration 16 
+ X value is 0.38160149080983574
+Iteration 17 
+ X value is 0.35648265361055403
+Iteration 18 
+ X value is 0.3332816234470483
+Iteration 19 
+ X value is 0.31180393391694344
+Iteration 20 
+ X value is 0.29188313362577795
+Iteration 21 
+ X value is 0.27337545734907137
+Iteration 22 
+ X value is 0.2561557107125988
+Iteration 23 
+ X value is 0.24011405412598877
+Iteration 24 
+ X value is 0.22515346216161097
+Iteration 25 
+ X value is 0.21118769651327082
+Iteration 26 
+ X value is 0.19813967381781086
+Iteration 27 
+ X value is 0.1859401401524223
+Iteration 28 
+ X value is 0.1745265859326629
+Iteration 29 
+ X value is 0.1638423508711062
+Iteration 30 
+ X value is 0.15383588038560114
+Iteration 31 
+ X value is 0.14446010357617153
+Iteration 32 
+ X value is 0.13567190945467972
+Iteration 33 
+ X value is 0.12743170309559837
+Iteration 34 
+ X value is 0.11970302719369512
+Iteration 35 
+ X value is 0.11245223746215334
+Iteration 36 
+ X value is 0.10564822259798584
+Iteration 37 
+ X value is 0.09926216133828847
+Iteration 38 
+ X value is 0.09326731054758187
+Iteration 39 
+ X value is 0.08763881940025481
+Iteration 40 
+ X value is 0.08235356561846485
+Iteration 41 
+ X value is 0.0773900104444777
+Iteration 42 
+ X value is 0.07272806960532577
+Iteration 43 
+ X value is 0.06834899799609115
+Iteration 44 
+ X value is 0.06423528618873255
+Iteration 45 
+ X value is 0.060370567183858435
+Iteration 46 
+ X value is 0.05673953207706378
+Iteration 47 
+ X value is 0.05332785352033079
+Iteration 48 
+ X value is 0.05012211603121346
+Iteration 49 
+ X value is 0.04710975234498449
+Iteration 50 
+ X value is 0.04427898512314388
+Iteration 51 
+ X value is 0.04161877343010622
+Iteration 52 
+ X value is 0.039118763472074526
+Iteration 53 
+ X value is 0.03676924316096384
+Iteration 54 
+ X value is 0.034561100124106715
+Iteration 55 
+ X value is 0.03248578282926491
+Iteration 56 
+ X value is 0.030535264535747224
+Iteration 57 
+ X value is 0.028702009817468982
+Iteration 58 
+ X value is 0.026978943433630945
+Iteration 59 
+ X value is 0.02535942134820534
+Iteration 60 
+ X value is 0.023837203721303532
+Iteration 61 
+ X value is 0.022406429714349117
+Iteration 62 
+ X value is 0.021061593967276217
+Iteration 63 
+ X value is 0.01979752462011713
+Iteration 64 
+ X value is 0.0186093627636693
+Iteration 65 
+ X value is 0.017492543214716442
+Iteration 66 
+ X value is 0.016442776520753564
+Iteration 67 
+ X value is 0.01545603210752335
+Iteration 68 
+ X value is 0.014528522490073982
+Iteration 69 
+ X value is 0.013656688474630644
+Iteration 70 
+ X value is 0.012837185284448919
+Iteration 71 
+ X value is 0.01206686954808359
+Iteration 72 
+ X value is 0.01134278709324181
+Iteration 73 
+ X value is 0.010662161493663619
+Iteration 74 
+ X value is 0.010022383320343269
+Iteration 75 
+ X value is 0.009421000051921164
+Iteration 76 
+ X value is 0.008855706602280322
+Iteration 77 
+ X value is 0.008324336426309269
+Iteration 78 
+ X value is 0.007824853167475875
+Iteration 79 
+ X value is 0.007355342813320555
+Iteration 80 
+ X value is 0.006914006327245282
+Iteration 81 
+ X value is 0.006499152727067072
+Iteration 82 
+ X value is 0.006109192582738161
+Iteration 83 
+ X value is 0.005742631907425263
+Iteration 84 
+ X value is 0.005398066417800211
+Iteration 85 
+ X value is 0.005074176140935767
+Iteration 86 
+ X value is 0.004769720346633613
+Iteration 87 
+ X value is 0.0044835327853457825
+Iteration 88 
+ X value is 0.0042145172130941145
+Iteration 89 
+ X value is 0.0039616431859520905
+Iteration 90 
+ X value is 0.0037239421077361074
+Iteration 91 
+ X value is 0.0035005035155647856
+Iteration 92 
+ X value is 0.0032904715888906243
+Iteration 93 
+ X value is 0.0030930418684929958
+Iteration 94 
+ X value is 0.002907458172749536
+Iteration 95 
+ X value is 0.002733009699278402
+Iteration 96 
+ X value is 0.0025690283007703306
+Iteration 97 
+ X value is 0.002414885924510257
+Iteration 98 
+ X value is 0.00226999220572654
+Iteration 99 
+ X value is 0.0021337922055044475
+Iteration 100 
+ X value is 0.00200576428456204
+Iteration 101 
+ X value is 0.0018854181047134788
+Iteration 102 
+ X value is 0.0017722927503391911
+Iteration 103 
+ X value is 0.0016659549626464477
+Iteration 104 
+ X value is 0.001565997479939609
+Iteration 105 
+ X value is 0.0014720374775283943
+Iteration 106 
+ X value is 0.0013837151012867038
+Iteration 107 
+ X value is 0.0013006920892353292
+Iteration 108 
+ X value is 0.001222650475860779
+Iteration 109 
+ X value is 0.0011492913742007869
+Iteration 110 
+ X value is 0.0010803338310261294
+Iteration 111 
+ X value is 0.0010155137507293415
+Iteration 112 
+ X value is 0.0009545828837949005
+Iteration 113 
+ X value is 0.000897307875973482
+Iteration 114 
+ X value is 0.0008434693745159656
+Iteration 115 
+ X value is 0.0007928611880418738
+Iteration 116 
+ X value is 0.0007452894968227443
+Iteration 117 
+ X value is 0.0007005721104543458
+Iteration 118 
+ X value is 0.0006585377700734174
+Iteration 119 
+ X value is 0.0006190254924454368
+Iteration 120 
+ X value is 0.000581883953410472
+Iteration 121 
+ X value is 0.000546970908325065
+Iteration 122 
+ X value is 0.0005141526472799128
+Iteration 123 
+ X value is 0.00048330348300640736
+Iteration 124 
+ X value is 0.0004543052695103782
+Iteration 125 
+ X value is 0.0004270469495891334
+Iteration 126 
+ X value is 0.00040142412949857874
+Iteration 127 
+ X value is 0.00037733867914122325
+Iteration 128 
+ X value is 0.000354698356243663
+Iteration 129 
+ X value is 0.0003334164530840461
+Iteration 130 
+ X value is 0.0003134114644164133
+Iteration 131 
+ X value is 0.000294606775320013
+Iteration 132 
+ X value is 0.0002769303677780182
+Iteration 133 
+ X value is 0.0002603145448618208
+Iteration 134 
+ X value is 0.00024469567146451687
+Iteration 135 
+ X value is 0.0002300139305905902
+Iteration 136 
+ X value is 0.00021621309426838635
+Iteration 137 
+ X value is 0.0002032403082079811
+Iteration 138 
+ X value is 0.0001910458893796954
+Iteration 139 
+ X value is 0.0001795831357379979
+Iteration 140 
+ X value is 0.00016880814736205504
+Iteration 141 
+ X value is 0.00015867965832791616
+Iteration 142 
+ X value is 0.0001491588786684239
+Iteration 143 
+ X value is 0.00014020934581557678
+Iteration 144 
+ X value is 0.00013179678495638906
+Iteration 145 
+ X value is 0.00012388897776743123
+Iteration 146 
+ X value is 0.00011645563902532507
+Iteration 147 
+ X value is 0.0001094683006206311
+Iteration 148 
+ X value is 0.00010290020253092154
+Iteration 149 
+ X value is 9.672619033548409e-05
+Iteration 150 
+ X value is 9.09226188791564e-05
+Iteration 151 
+ X value is 8.546726171634101e-05
+Iteration 152 
+ X value is 8.03392259883882e-05
+Iteration 153 
+ X value is 7.551887240834328e-05
+Iteration 154 
+ X value is 7.098774004661502e-05
+Iteration 155 
+ X value is 6.672847562950909e-05
+Iteration 156 
+ X value is 6.272476707985369e-05
+Iteration 157 
+ X value is 5.89612810451911e-05
+Iteration 158 
+ X value is 5.5423604174280634e-05
+Iteration 159 
+ X value is 5.209818791701384e-05
+Iteration 160 
+ X value is 4.897229663633677e-05
+Iteration 161 
+ X value is 4.603395883345858e-05
+Iteration 162 
+ X value is 4.327192129954899e-05
+Iteration 163 
+ X value is 4.0675606018335055e-05
+Iteration 164 
+ X value is 3.8235069654543034e-05
+Iteration 165 
+ X value is 3.594096547303459e-05
+Iteration 166 
+ X value is 3.378450754279544e-05
+Iteration 167 
+ X value is 3.1757437088685254e-05
+Iteration 168 
+ X value is 2.9851990862083e-05
+Iteration 169 
+ X value is 2.8060871409293925e-05
+Iteration 170 
+ X value is 2.637721912385247e-05
+Iteration 171 
+ X value is 2.4794585975687237e-05
+Iteration 172 
+ X value is 2.3306910816536284e-05
+Iteration 173 
+ X value is 2.1908496167037683e-05
+Iteration 174 
+ X value is 2.0593986396594793e-05
+Iteration 175 
+ X value is 1.935834721244974e-05
+Iteration 176 
+ X value is 1.8196846379412577e-05
+Iteration 177 
+ X value is 1.7105035596406803e-05
+Iteration 178 
+ X value is 1.607873346042221e-05
+Iteration 179 
+ X value is 1.5114009452630606e-05
+the local min ocurs at 1.5114009452630606e-05
