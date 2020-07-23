@@ -90,362 +90,302 @@ print("the local minimum occurs at",x_o,y_o)
 
 ------OUTPUT-------
 
-Iteration 1 
- X value is 1.56
-Iteration 2 
- X value is 1.31454336
-Iteration 3 
- X value is 1.1448082464958187
-Iteration 4 
- X value is 1.0161049688907735
-Iteration 5 
- X value is 0.9131747830018315
-Iteration 6 
- X value is 0.8279248695515025
-Iteration 7 
- X value is 0.7555490157255917
-Iteration 8 
- X value is 0.6929637381442643
-Iteration 9 
- X value is 0.638075501232656
-Iteration 10 
- X value is 0.5893995199634046
-Iteration 11 
- X value is 0.5458454464975495
-Iteration 12 
- X value is 0.5065893936874144
-Iteration 13 
- X value is 0.4709937316045093
-Iteration 14 
- X value is 0.4385547901364728
-Iteration 15 
- X value is 0.4088676076848285
-Iteration 16 
- X value is 0.38160149080983574
-Iteration 17 
- X value is 0.35648265361055403
-Iteration 18 
- X value is 0.3332816234470483
-Iteration 19 
- X value is 0.31180393391694344
-Iteration 20 
- X value is 0.29188313362577795
-Iteration 21 
- X value is 0.27337545734907137
-Iteration 22 
- X value is 0.2561557107125988
-Iteration 23 
- X value is 0.24011405412598877
-Iteration 24 
- X value is 0.22515346216161097
-Iteration 25 
- X value is 0.21118769651327082
-Iteration 26 
- X value is 0.19813967381781086
-Iteration 27 
- X value is 0.1859401401524223
-Iteration 28 
- X value is 0.1745265859326629
-Iteration 29 
- X value is 0.1638423508711062
-Iteration 30 
- X value is 0.15383588038560114
-Iteration 31 
- X value is 0.14446010357617153
-Iteration 32 
- X value is 0.13567190945467972
-Iteration 33 
- X value is 0.12743170309559837
-Iteration 34 
- X value is 0.11970302719369512
-Iteration 35 
- X value is 0.11245223746215334
-Iteration 36 
- X value is 0.10564822259798584
-Iteration 37 
- X value is 0.09926216133828847
-Iteration 38 
- X value is 0.09326731054758187
-Iteration 39 
- X value is 0.08763881940025481
-Iteration 40 
- X value is 0.08235356561846485
-Iteration 41 
- X value is 0.0773900104444777
-Iteration 42 
- X value is 0.07272806960532577
-Iteration 43 
- X value is 0.06834899799609115
-Iteration 44 
- X value is 0.06423528618873255
-Iteration 45 
- X value is 0.060370567183858435
-Iteration 46 
- X value is 0.05673953207706378
-Iteration 47 
- X value is 0.05332785352033079
-Iteration 48 
- X value is 0.05012211603121346
-Iteration 49 
- X value is 0.04710975234498449
-Iteration 50 
- X value is 0.04427898512314388
-Iteration 51 
- X value is 0.04161877343010622
-Iteration 52 
- X value is 0.039118763472074526
-Iteration 53 
- X value is 0.03676924316096384
-Iteration 54 
- X value is 0.034561100124106715
-Iteration 55 
- X value is 0.03248578282926491
-Iteration 56 
- X value is 0.030535264535747224
-Iteration 57 
- X value is 0.028702009817468982
-Iteration 58 
- X value is 0.026978943433630945
-Iteration 59 
- X value is 0.02535942134820534
-Iteration 60 
- X value is 0.023837203721303532
-Iteration 61 
- X value is 0.022406429714349117
-Iteration 62 
- X value is 0.021061593967276217
-Iteration 63 
- X value is 0.01979752462011713
-Iteration 64 
- X value is 0.0186093627636693
-Iteration 65 
- X value is 0.017492543214716442
-Iteration 66 
- X value is 0.016442776520753564
-Iteration 67 
- X value is 0.01545603210752335
-Iteration 68 
- X value is 0.014528522490073982
-Iteration 69 
- X value is 0.013656688474630644
-Iteration 70 
- X value is 0.012837185284448919
-Iteration 71 
- X value is 0.01206686954808359
-Iteration 72 
- X value is 0.01134278709324181
-Iteration 73 
- X value is 0.010662161493663619
-Iteration 74 
- X value is 0.010022383320343269
-Iteration 75 
- X value is 0.009421000051921164
-Iteration 76 
- X value is 0.008855706602280322
-Iteration 77 
- X value is 0.008324336426309269
-Iteration 78 
- X value is 0.007824853167475875
-Iteration 79 
- X value is 0.007355342813320555
-Iteration 80 
- X value is 0.006914006327245282
-Iteration 81 
- X value is 0.006499152727067072
-Iteration 82 
- X value is 0.006109192582738161
-Iteration 83 
- X value is 0.005742631907425263
-Iteration 84 
- X value is 0.005398066417800211
-Iteration 85 
- X value is 0.005074176140935767
-Iteration 86 
- X value is 0.004769720346633613
-Iteration 87 
- X value is 0.0044835327853457825
-Iteration 88 
- X value is 0.0042145172130941145
-Iteration 89 
- X value is 0.0039616431859520905
-Iteration 90 
- X value is 0.0037239421077361074
-Iteration 91 
- X value is 0.0035005035155647856
-Iteration 92 
- X value is 0.0032904715888906243
-Iteration 93 
- X value is 0.0030930418684929958
-Iteration 94 
- X value is 0.002907458172749536
-Iteration 95 
- X value is 0.002733009699278402
-Iteration 96 
- X value is 0.0025690283007703306
-Iteration 97 
- X value is 0.002414885924510257
-Iteration 98 
- X value is 0.00226999220572654
-Iteration 99 
- X value is 0.0021337922055044475
-Iteration 100 
- X value is 0.00200576428456204
-Iteration 101 
- X value is 0.0018854181047134788
-Iteration 102 
- X value is 0.0017722927503391911
-Iteration 103 
- X value is 0.0016659549626464477
-Iteration 104 
- X value is 0.001565997479939609
-Iteration 105 
- X value is 0.0014720374775283943
-Iteration 106 
- X value is 0.0013837151012867038
-Iteration 107 
- X value is 0.0013006920892353292
-Iteration 108 
- X value is 0.001222650475860779
-Iteration 109 
- X value is 0.0011492913742007869
-Iteration 110 
- X value is 0.0010803338310261294
-Iteration 111 
- X value is 0.0010155137507293415
-Iteration 112 
- X value is 0.0009545828837949005
-Iteration 113 
- X value is 0.000897307875973482
-Iteration 114 
- X value is 0.0008434693745159656
-Iteration 115 
- X value is 0.0007928611880418738
-Iteration 116 
- X value is 0.0007452894968227443
-Iteration 117 
- X value is 0.0007005721104543458
-Iteration 118 
- X value is 0.0006585377700734174
-Iteration 119 
- X value is 0.0006190254924454368
-Iteration 120 
- X value is 0.000581883953410472
-Iteration 121 
- X value is 0.000546970908325065
-Iteration 122 
- X value is 0.0005141526472799128
-Iteration 123 
- X value is 0.00048330348300640736
-Iteration 124 
- X value is 0.0004543052695103782
-Iteration 125 
- X value is 0.0004270469495891334
-Iteration 126 
- X value is 0.00040142412949857874
-Iteration 127 
- X value is 0.00037733867914122325
-Iteration 128 
- X value is 0.000354698356243663
-Iteration 129 
- X value is 0.0003334164530840461
-Iteration 130 
- X value is 0.0003134114644164133
-Iteration 131 
- X value is 0.000294606775320013
-Iteration 132 
- X value is 0.0002769303677780182
-Iteration 133 
- X value is 0.0002603145448618208
-Iteration 134 
- X value is 0.00024469567146451687
-Iteration 135 
- X value is 0.0002300139305905902
-Iteration 136 
- X value is 0.00021621309426838635
-Iteration 137 
- X value is 0.0002032403082079811
-Iteration 138 
- X value is 0.0001910458893796954
-Iteration 139 
- X value is 0.0001795831357379979
-Iteration 140 
- X value is 0.00016880814736205504
-Iteration 141 
- X value is 0.00015867965832791616
-Iteration 142 
- X value is 0.0001491588786684239
-Iteration 143 
- X value is 0.00014020934581557678
-Iteration 144 
- X value is 0.00013179678495638906
-Iteration 145 
- X value is 0.00012388897776743123
-Iteration 146 
- X value is 0.00011645563902532507
-Iteration 147 
- X value is 0.0001094683006206311
-Iteration 148 
- X value is 0.00010290020253092154
-Iteration 149 
- X value is 9.672619033548409e-05
-Iteration 150 
- X value is 9.09226188791564e-05
-Iteration 151 
- X value is 8.546726171634101e-05
-Iteration 152 
- X value is 8.03392259883882e-05
-Iteration 153 
- X value is 7.551887240834328e-05
-Iteration 154 
- X value is 7.098774004661502e-05
-Iteration 155 
- X value is 6.672847562950909e-05
-Iteration 156 
- X value is 6.272476707985369e-05
-Iteration 157 
- X value is 5.89612810451911e-05
-Iteration 158 
- X value is 5.5423604174280634e-05
-Iteration 159 
- X value is 5.209818791701384e-05
-Iteration 160 
- X value is 4.897229663633677e-05
-Iteration 161 
- X value is 4.603395883345858e-05
-Iteration 162 
- X value is 4.327192129954899e-05
-Iteration 163 
- X value is 4.0675606018335055e-05
-Iteration 164 
- X value is 3.8235069654543034e-05
-Iteration 165 
- X value is 3.594096547303459e-05
-Iteration 166 
- X value is 3.378450754279544e-05
-Iteration 167 
- X value is 3.1757437088685254e-05
-Iteration 168 
- X value is 2.9851990862083e-05
-Iteration 169 
- X value is 2.8060871409293925e-05
-Iteration 170 
- X value is 2.637721912385247e-05
-Iteration 171 
- X value is 2.4794585975687237e-05
-Iteration 172 
- X value is 2.3306910816536284e-05
-Iteration 173 
- X value is 2.1908496167037683e-05
-Iteration 174 
- X value is 2.0593986396594793e-05
-Iteration 175 
- X value is 1.935834721244974e-05
-Iteration 176 
- X value is 1.8196846379412577e-05
-Iteration 177 
- X value is 1.7105035596406803e-05
-Iteration 178 
- X value is 1.607873346042221e-05
-Iteration 179 
- X value is 1.5114009452630606e-05
-the local min ocurs at 1.5114009452630606e-05
+
+iterations 2 
+ x value is 1.88 
+ y value is 4.000915781944436
+iterations 3 
+ x value is 1.7671999999999999 
+ y value is 4.001830725616199
+iterations 4 
+ x value is 1.661168 
+ y value is 4.002744832548883
+iterations 5 
+ x value is 1.5614979199999999 
+ y value is 4.003658104271876
+iterations 6 
+ x value is 1.4678080448 
+ y value is 4.004570542310377
+iterations 7 
+ x value is 1.3797395621119999 
+ y value is 4.00548214818541
+iterations 8 
+ x value is 1.29695518838528 
+ y value is 4.006392923413841
+iterations 9 
+ x value is 1.219137877082163 
+ y value is 4.00730286950839
+iterations 10 
+ x value is 1.1459896044572333 
+ y value is 4.008211987977647
+iterations 11 
+ x value is 1.0772302281897992 
+ y value is 4.0091202803260915
+iterations 12 
+ x value is 1.0125964144984112 
+ y value is 4.0100277480541004
+iterations 13 
+ x value is 0.9518406296285066 
+ y value is 4.010934392657968
+iterations 14 
+ x value is 0.8947301918507962 
+ y value is 4.011840215629919
+iterations 15 
+ x value is 0.8410463803397484 
+ y value is 4.012745218458121
+iterations 16 
+ x value is 0.7905835975193636 
+ y value is 4.013649402626704
+iterations 17 
+ x value is 0.7431485816682017 
+ y value is 4.014552769615774
+iterations 18 
+ x value is 0.6985596667681097 
+ y value is 4.015455320901421
+iterations 19 
+ x value is 0.6566460867620231 
+ y value is 4.0163570579557435
+iterations 20 
+ x value is 0.6172473215563017 
+ y value is 4.017257982246855
+iterations 21 
+ x value is 0.5802124822629235 
+ y value is 4.018158095238903
+iterations 22 
+ x value is 0.5453997333271481 
+ y value is 4.019057398392079
+iterations 23 
+ x value is 0.5126757493275192 
+ y value is 4.01995589316264
+iterations 24 
+ x value is 0.4819152043678681 
+ y value is 4.020853581002914
+iterations 25 
+ x value is 0.453000292105796 
+ y value is 4.021750463361319
+iterations 26 
+ x value is 0.42582027457944827 
+ y value is 4.022646541682376
+iterations 27 
+ x value is 0.4002710581046814 
+ y value is 4.023541817406724
+iterations 28 
+ x value is 0.3762547946184005 
+ y value is 4.024436291971133
+iterations 29 
+ x value is 0.35367950694129646 
+ y value is 4.025329966808516
+iterations 30 
+ x value is 0.33245873652481867 
+ y value is 4.026222843347947
+iterations 31 
+ x value is 0.31251121233332957 
+ y value is 4.02711492301467
+iterations 32 
+ x value is 0.2937605395933298 
+ y value is 4.028006207230118
+iterations 33 
+ x value is 0.27613490721773004 
+ y value is 4.02889669741192
+iterations 34 
+ x value is 0.25956681278466626 
+ y value is 4.029786394973921
+iterations 35 
+ x value is 0.24399280401758627 
+ y value is 4.03067530132619
+iterations 36 
+ x value is 0.2293532357765311 
+ y value is 4.03156341787504
+iterations 37 
+ x value is 0.21559204162993925 
+ y value is 4.0324507460230326
+iterations 38 
+ x value is 0.2026565191321429 
+ y value is 4.033337287168999
+iterations 39 
+ x value is 0.1904971279842143 
+ y value is 4.03422304270805
+iterations 40 
+ x value is 0.17906730030516144 
+ y value is 4.035108014031589
+iterations 41 
+ x value is 0.16832326228685174 
+ y value is 4.035992202527326
+iterations 42 
+ x value is 0.15822386654964063 
+ y value is 4.0368756095792895
+iterations 43 
+ x value is 0.14873043455666218 
+ y value is 4.037758236567841
+iterations 44 
+ x value is 0.13980660848326246 
+ y value is 4.038640084869687
+iterations 45 
+ x value is 0.1314182119742667 
+ y value is 4.0395211558578925
+iterations 46 
+ x value is 0.1235331192558107 
+ y value is 4.040401450901893
+iterations 47 
+ x value is 0.11612113210046206 
+ y value is 4.041280971367508
+iterations 48 
+ x value is 0.10915386417443433 
+ y value is 4.0421597186169524
+iterations 49 
+ x value is 0.10260463232396827 
+ y value is 4.043037694008852
+iterations 50 
+ x value is 0.09644835438453017 
+ y value is 4.043914898898254
+iterations 51 
+ x value is 0.09066145312145836 
+ y value is 4.044791334636638
+iterations 52 
+ x value is 0.08522176593417086 
+ y value is 4.045667002571934
+iterations 53 
+ x value is 0.0801084599781206 
+ y value is 4.046541904048526
+iterations 54 
+ x value is 0.07530195237943337 
+ y value is 4.047416040407276
+iterations 55 
+ x value is 0.07078383523666737 
+ y value is 4.0482894129855245
+iterations 56 
+ x value is 0.06653680512246733 
+ y value is 4.049162023117111
+iterations 57 
+ x value is 0.06254459681511929 
+ y value is 4.050033872132382
+iterations 58 
+ x value is 0.058791921006212125 
+ y value is 4.050904961358207
+iterations 59 
+ x value is 0.0552644057458394 
+ y value is 4.051775292117987
+iterations 60 
+ x value is 0.05194854140108904 
+ y value is 4.052644865731667
+iterations 61 
+ x value is 0.048831628917023695 
+ y value is 4.0535136835157495
+iterations 62 
+ x value is 0.045901731182002276 
+ y value is 4.0543817467833065
+iterations 63 
+ x value is 0.04314762731108214 
+ y value is 4.05524905684399
+iterations 64 
+ x value is 0.040558769672417214 
+ y value is 4.056115615004044
+iterations 65 
+ x value is 0.03812524349207218 
+ y value is 4.056981422566319
+iterations 66 
+ x value is 0.03583772888254785 
+ y value is 4.05784648083028
+iterations 67 
+ x value is 0.033687465149594975 
+ y value is 4.058710791092021
+iterations 68 
+ x value is 0.03166621724061928 
+ y value is 4.0595743546442735
+iterations 69 
+ x value is 0.02976624420618212 
+ y value is 4.060437172776423
+iterations 70 
+ x value is 0.027980269553811193 
+ y value is 4.0612992467745155
+iterations 71 
+ x value is 0.026301453380582523 
+ y value is 4.062160577921272
+iterations 72 
+ x value is 0.02472336617774757 
+ y value is 4.0630211674961
+iterations 73 
+ x value is 0.023239964207082717 
+ y value is 4.063881016775102
+iterations 74 
+ x value is 0.021845566354657755 
+ y value is 4.064740127031091
+iterations 75 
+ x value is 0.02053483237337829 
+ y value is 4.0655984995336
+iterations 76 
+ x value is 0.019302742430975593 
+ y value is 4.066456135548891
+iterations 77 
+ x value is 0.018144577885117058 
+ y value is 4.06731303633997
+iterations 78 
+ x value is 0.017055903212010035 
+ y value is 4.068169203166595
+iterations 79 
+ x value is 0.01603254901928943 
+ y value is 4.06902463728529
+iterations 80 
+ x value is 0.015070596078132065 
+ y value is 4.069879339949354
+iterations 81 
+ x value is 0.014166360313444142 
+ y value is 4.070733312408873
+iterations 82 
+ x value is 0.013316378694637494 
+ y value is 4.071586555910729
+iterations 83 
+ x value is 0.012517395972959243 
+ y value is 4.072439071698614
+iterations 84 
+ x value is 0.011766352214581688 
+ y value is 4.07329086101304
+iterations 85 
+ x value is 0.011060371081706787 
+ y value is 4.074141925091347
+iterations 86 
+ x value is 0.01039674881680438 
+ y value is 4.074992265167719
+iterations 87 
+ x value is 0.009772943887796117 
+ y value is 4.075841882473189
+iterations 88 
+ x value is 0.00918656725452835 
+ y value is 4.076690778235655
+iterations 89 
+ x value is 0.00863537321925665 
+ y value is 4.077538953679886
+iterations 90 
+ x value is 0.008117250826101251 
+ y value is 4.0783864100275355
+iterations 91 
+ x value is 0.007630215776535176 
+ y value is 4.079233148497153
+iterations 92 
+ x value is 0.007172402829943065 
+ y value is 4.080079170304189
+iterations 93 
+ x value is 0.006742058660146481 
+ y value is 4.080924476661013
+iterations 94 
+ x value is 0.006337535140537693 
+ y value is 4.08176906877692
+iterations 95 
+ x value is 0.005957283032105431 
+ y value is 4.082612947858138
+iterations 96 
+ x value is 0.005599846050179105 
+ y value is 4.083456115107845
+iterations 97 
+ x value is 0.005263855287168359 
+ y value is 4.0842985717261735
+iterations 98 
+ x value is 0.0049480239699382575 
+ y value is 4.0851403189102236
+iterations 99 
+ x value is 0.004651142531741962 
+ y value is 4.085981357854074
+iterations 100 
+ x value is 0.0043720739798374444 
+ y value is 4.086821689748788
+the local minimum occurs at 0.0043720739798374444 4.086821689748788
